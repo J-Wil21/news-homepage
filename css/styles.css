@@ -130,22 +130,28 @@ aside {
 h2 {
     color: hsl(35, 77%, 62%);
     font-size: 30px;
+    font-weight: 600;
     margin-bottom: 30px;
 }
 
 h3 {
     color: #fff;
+    font-weight: 600;
     margin-bottom: 10px;
 }
 
 h3:nth-child(1n) {
     margin-top: 30px;
-
 }
 
 h3:nth-of-type(1n+2) {
     border-top: 0.1em solid #fff;
     padding-top: 30px;
+}
+
+aside>p {
+    color: hsl(233, 8%, 79%);
+    font-weight: 200;
 }
 
 /*articles*/
@@ -162,10 +168,10 @@ article {
 }
 
 .num {
+    color: hsla(233, 8%, 79%, 0.970);
     display: block;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 30px;
-
 }
 
 .article-bold {
