@@ -27,6 +27,7 @@ body {
     position: relative;
     top: 0;
     right: 5vw;
+    color: #000;
 }
 
 /*Nav bar */
@@ -72,6 +73,7 @@ body {
     top: 0;
     right: 5vw;
     font-size: 60px;
+    color: #000;
 }
 
 /*main banner image*/
@@ -118,6 +120,10 @@ button {
     letter-spacing: 3px;
 }
 
+button:hover {
+    background-color: hsl(240, 100%, 5%);
+}
+
 /*side articles*/
 
 aside {
@@ -138,6 +144,11 @@ h3 {
     color: #fff;
     font-weight: 600;
     margin-bottom: 10px;
+
+}
+
+h3:hover {
+    color: hsl(35, 77%, 62%);
 }
 
 h3:nth-child(1n) {
@@ -179,6 +190,10 @@ article {
     color: #000;
     display: block;
     line-height: 3;
+}
+
+.article-bold:hover {
+    color: hsl(5, 85%, 63%)
 }
 
 article>p {
