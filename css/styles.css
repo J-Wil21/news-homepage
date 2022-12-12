@@ -3,9 +3,13 @@
     font-family: 'Inter', sans-serif;
 }
 
-/* header (with logo)*/
-.nav-bar {
+body {
+    background-color: hsl(36, 100%, 99%);
+}
 
+/* header (with logo)*/
+
+.nav-bar {
     height: 8vh;
     display: flex;
     justify-content: space-between;
@@ -16,7 +20,6 @@
 .logo {
     width: 80%;
     margin-left: 20%;
-
 }
 
 .menu-btn {
@@ -27,6 +30,7 @@
 }
 
 /*Nav bar */
+
 .offcanvas-nav {
     background-color: hsl(36, 100%, 99%);
     width: 70vw;
@@ -71,6 +75,7 @@
 }
 
 /*main banner image*/
+
 .img {
     display: flex;
     justify-content: center;
@@ -79,7 +84,6 @@
 .mb-image {
     width: auto;
     height: 280px;
-
 }
 
 /*main article*/
@@ -87,8 +91,7 @@
 h1 {
     font-size: 39px;
     font-weight: 800;
-    margin: 5% 0;
-
+    margin: 5% 1%;
 }
 
 .mb-flex {
@@ -106,6 +109,72 @@ p {
 button {
     background-color: hsl(5, 85%, 63%);
     border: none;
+    border-radius: 3px;
     margin: 5% 0;
-    padding: 2em 2em;
+    padding: 0.7rem 1.7rem;
+    align-self: flex-start;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/*side articles*/
+
+aside {
+    background-color: hsl(240, 100%, 5%);
+    margin: 0 6%;
+    padding: 5%;
+    border-radius: 3px;
+}
+
+h2 {
+    color: hsl(35, 77%, 62%);
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+h3:nth-child(1n) {
+    margin-top: 30px;
+
+}
+
+h3:nth-of-type(1n+2) {
+    border-top: 0.1em solid #fff;
+    padding-top: 30px;
+}
+
+/*articles*/
+article {
+    display: flex;
+    flex-direction: row;
+    margin: 10% 6%;
+}
+
+.article-img {
+    width: 130px;
+    margin-right: 5%;
+    border-radius: 3px;
+}
+
+.num {
+    display: block;
+    font-weight: 800;
+    font-size: 30px;
+
+}
+
+.article-bold {
+    font-weight: 800;
+    color: #000;
+    display: block;
+    line-height: 3;
+}
+
+article>p {
+    line-height: 1.7;
 }
