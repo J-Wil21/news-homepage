@@ -85,11 +85,6 @@ a {
 
 /*main banner image*/
 
-.img {
-    display: flex;
-    justify-content: center;
-}
-
 .mb-image {
     width: auto;
     height: 280px;
@@ -253,7 +248,17 @@ article>p {
     /*main article*/
 
     .main-flex {
+        margin: 0 auto;
+        width: 80em;
+        height: 35em;
+
         display: flex;
+        justify-content: flex-start;
+    }
+
+    .dsk-image {
+        width: auto;
+        height: 350px;
     }
 
     .mb-flex {
@@ -261,7 +266,8 @@ article>p {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 0px;
-        grid-row-gap: 0px;
+        grid-row-gap: 25px;
+        align-items: start;
     }
 
     .div1 {
@@ -274,6 +280,15 @@ article>p {
 
     .div3 {
         grid-area: 2 / 2 / 3 / 3;
+    }
+
+    /*side articles*/
+    aside {
+        height: 25rem;
+        width: 90%;
+        margin-top: 4%;
+        padding: 3% 3%;
+        border-radius: 3px;
     }
 
 }
