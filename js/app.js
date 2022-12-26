@@ -12,4 +12,4 @@ closeBtn.addEventListener('click', function (e) {
     offcanvasMenu.classList.remove('active');
 });
 
-document.querySelector('span').innerText = 'Disgusting';
+document.querySelector('span').innerText = '01';

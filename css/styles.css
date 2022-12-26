@@ -87,7 +87,13 @@ a {
 
 .mb-image {
     width: auto;
-    height: 280px;
+    height: 17.5em;
+
+}
+
+.img {
+    display: flex;
+    justify-content: center;
 }
 
 /*main article*/
@@ -247,47 +253,68 @@ article>p {
 
     /*main article*/
 
+
     .main-flex {
         margin: 0 auto;
         width: 80em;
         height: 35em;
-
         display: flex;
-        justify-content: flex-start;
     }
 
-    .dsk-image {
-        width: auto;
-        height: 350px;
-    }
 
     .mb-flex {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 25px;
-        align-items: start;
+        margin-right: 0;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
-    .div1 {
-        grid-area: 1 / 1 / 2 / 3;
+    .flex-title {
+        width: 50%;
+        align-self: flex-start;
+
     }
 
-    .div2 {
-        grid-area: 2 / 1 / 3 / 2;
-    }
-
-    .div3 {
-        grid-area: 2 / 2 / 3 / 3;
+    .flex-para {
+        width: 50%;
+        align-self: flex-end;
     }
 
     /*side articles*/
     aside {
         height: 25rem;
-        width: 90%;
-        margin-top: 4%;
+        width: 100%;
+        margin: 4% 5% 0 5%;
         padding: 3% 3%;
+        border-radius: 3px;
+    }
+
+    /*articles*/
+    .articles-flex {
+        background-color: aqua;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    article {
+        display: flex;
+        flex-direction: row;
+        margin: 3% 2%;
+    }
+
+    article:first-child {
+        margin-left: 8%;
+    }
+
+    article:last-child {
+        margin-right: 8%;
+    }
+
+    .article-img {
+        width: 130px;
+        margin-right: 5%;
         border-radius: 3px;
     }
 
