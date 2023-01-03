@@ -292,7 +292,6 @@ article>p {
 
     /*articles*/
     .articles-flex {
-        background-color: aqua;
         width: 100%;
         display: flex;
         flex-direction: row;
